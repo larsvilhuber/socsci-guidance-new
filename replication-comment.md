@@ -1,13 +1,8 @@
----
-title: Guidance on how to prepare a comment based on a replication
-toc: true
-layout: single
-date: 2021-09-29
----
+# Guidance on how to prepare a comment based on a replication
 
 You may have found an issue in a published article related to some of the computations therein, and are preparing a comment. This note describes how you should prepare the replication package that accompanies the comment, to ensure clarity and transparency of your replication package.
 
-### Provide a strong link to the original replication package
+## Provide a strong link to the original replication package
 
 Your comment may start off with different data, augmented data, more up-to-date data, or the same data the original authors used. If you are pointing out issues with data processing or analysis methods, ideally use the same data the original authors used. Put simply, start with a reproduction of the original article! 
 
@@ -25,11 +20,11 @@ You should
 
 - [ ] not rename or otherwise modify the original files
 
-### Provide reproducible code
+## Provide reproducible code
 
 Your code should itself be reproducible. 
 
-### Provide a README
+## Provide a README
 
 You should provide a clear README that outlines the requirements for your comment's replication package. You should be precise (more precise, in general) then the original authors in outlining the computational requirements (for instance, software versions), so that any spurious discrepancy can be ruled out.
 
