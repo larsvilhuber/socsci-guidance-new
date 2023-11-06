@@ -1,9 +1,4 @@
----
-title: "Creating separate linked data archives"
-toc: true
-layout: single
-date: 2021-07-08
----
+# Creating separate linked data archives"
 
 
 Every time we see that a lot of effort went into creating a data resource, we don't want to have that sit hidden in a replication package. We want to give data packages with significant value-added their own deposit, separately cited, and with much better discoverability. This is also relevant for situations where some or all of the data may be **restricted**, but the code is meant to be public (such as to ensure compliance with the [AEA Data and Code Availability Policy](https://www.aeaweb.org/journals/data/data-code-policy)).
@@ -72,7 +67,7 @@ Examples:
 
 ## Additional thoughts
 
-### Project websites and archives 
+## Project websites and archives 
 
 Some researchers keep separate websites for their long-running projects, including providing data on those websites. While the stylistic freedom of a free-standing website is certainly important, we suggest that the data provided via those websites (e.g., `www.fabdata.org/data/superdata.zip`), be archived in a trusted repository, and that the primary download link point to those repositories.
 
@@ -87,7 +82,7 @@ Example:
 
 In addition, you might want to save the website to the [Internet archive](archive.org) to make a permanent copy of the front end web pages.
 
-### Collections and Communities
+## Collections and Communities
 
 Some trusted repositories offer the option to make what are called "collections", "communities", "dataverses", or similar. This can be used for single projects, entire institutes, or journals
 
@@ -101,7 +96,7 @@ Some trusted repositories offer the option to make what are called "collections"
   - Example: [AEA Data and Code Repository](https://www.openicpsr.org/openicpsr/aea) hosts the AEA's replication packages
   - Example: [DataLumos](https://www.datalumos.org/datalumos/) preserves "valuable government data resources"
 
-### Curation vs. Preservation
+## Curation vs. Preservation
 
 Most of the free or low-cost resources mentioned here provide preservation of the deposited materials, but are essentially self-serve websites with included preservation. No professional archivist or curator will inspect data, or work to improve the data quality. However, in some cases, it may make sense to work with a professional archivist to further improve the quality of the archived materials. 
 
@@ -115,7 +110,7 @@ Example:
 
 A note that such curation can take significant time (several months). It may also carry a cost, depending on, for instance, membership of an author's institution in ICPSR.
 
-### Restrictions
+## Restrictions
 
 When creating a separate DATA deposit because of ethical or legal requirements, you may want to enforce an application process and/or provide a more restricted license. 
 

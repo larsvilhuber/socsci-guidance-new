@@ -1,19 +1,13 @@
----
-title: Guidance on how to deposit data at the AEA Data and Code Repository
-toc: true
-layout: single
-date: 2021-09-06
-modified: 2023-09-07
----
+# Guidance on how to deposit data at the AEA Data and Code Repository
 
-### Tutorial
+## Tutorial
 
 For a video tutorial on this process, see [this Youtube video](https://www.youtube.com/watch?v=wRytQcotLGc).
 
 > If you are depositing at a different trusted repository, please be sure that your deposit complies with our [Display Guidelines for Trusted Repositories](guidelines-other-repositories)
 
 
-### Assistance
+## Assistance
 
 If, in the process of uploading your replication package, you have questions that are not addressed by these guidelines, please contact us:
 
@@ -24,7 +18,7 @@ If, in the process of uploading your replication package, you have questions tha
 
 In some cases, the [openICPSR helpdesk](https://www.openicpsr.org/openicpsr/contactUs) may be able to help you, but with any content matter, please contact us, not them. 
 
-### Start the deposit process
+## Start the deposit process
 
 Go to the [AEA Data and Code Repository](https://www.openicpsr.org/openicpsr/aea), and start the process:
 
@@ -32,9 +26,9 @@ Go to the [AEA Data and Code Repository](https://www.openicpsr.org/openicpsr/aea
 
 ---
 
-### Checklist for Metadata
+## Checklist for Metadata
 
-#### Required
+### Required
 
 - [ ] **Title** (Suggested: "*Data and Code for: (NAME OF PAPER)*")
   - If only data, or only code are provided, adjust accordingly.
@@ -48,7 +42,7 @@ Go to the [AEA Data and Code Repository](https://www.openicpsr.org/openicpsr/aea
 - [ ] **JEL Classification** (can be the same as article)
 - [ ] **Manuscript Number** (your manuscript tracking number as assigned by the editorial office, e.g., "AER-2019-0000")
 
-#### Conditionally required
+### Conditionally required
 
 *Most deposits will also need to provide the following metadata elements. In some cases, it may not make sense to fill out (for instance, a laboratory experiment may have no meaningful "geographic coverage"). These elements contribute to better inclusion in search engines.*
 
@@ -58,7 +52,7 @@ Go to the [AEA Data and Code Repository](https://www.openicpsr.org/openicpsr/aea
 - [ ] Universe (e.g., "All households in Canada", "Manufacturing establishments in Indonesia", ...)
 - [ ] Data Type(s) 
 
-#### Suggested
+### Suggested
 
 *The following elements are suggested for certain types of data, and may not apply to all types of data.*
 
@@ -71,10 +65,10 @@ Go to the [AEA Data and Code Repository](https://www.openicpsr.org/openicpsr/aea
 Start by providing the metadata (descriptors) for the data and code you are uploading.
 
 
-### Details on Filling Out Metadata
+## Details on Filling Out Metadata
 
 
-#### Describe the project
+### Describe the project
 
 ![screenshot of project description](/images/project-description-icpsr.png)
 
@@ -84,7 +78,7 @@ Start by providing the metadata (descriptors) for the data and code you are uplo
   - Identify any **funding sources** here - the information can be queried by some funders, and can assist with your award reporting.
 
 
-#### Scope of project section
+### Scope of project section
 
 To fill out the required metadata elements **Subject Terms**, **JEL Classification**, and **Manuscript Number**, open the "Scope of Project" section:
 
@@ -107,7 +101,7 @@ To fill out the required metadata elements **Subject Terms**, **JEL Classificati
   - This information can also be provided when only code is made available.
   - When only code is produced, authors should choose `data type = program source code`: ![program source code](../../images/project-data-type-icpsr.png)
 
-#### Methodology section
+### Methodology section
 
   ![methodology section](/images/project-methodology-icpsr.png)
   
@@ -116,7 +110,7 @@ To fill out the required metadata elements **Subject Terms**, **JEL Classificati
   - We ENCOURAGE all authors to define
     - the unit of observation (e.g. individual, firm, establishment, county, country)
 
-#### Related publications section
+### Related publications section
 
 ![related publications](/images/project-related-icpsr.png)
 
@@ -127,7 +121,7 @@ To fill out the required metadata elements **Subject Terms**, **JEL Classificati
 
 
 
-### Uploading
+## Uploading
 
 Once the metadata is completed, authors can upload files. 
 
@@ -135,7 +129,7 @@ Upload files in the way you expect the files to be organized in order to run the
 
 ---
 
-#### Checklist for Uploading
+### Checklist for Uploading
 
 - [ ] README is in PDF or TXT format 
 - [ ] Do not upload a ZIP file - [IMPORT IT](#importing-zip-files)! 
@@ -146,9 +140,9 @@ Upload files in the way you expect the files to be organized in order to run the
 
 ---
 
-### Some caveats and tips
+## Some caveats and tips
 
-#### Importing ZIP files
+### Importing ZIP files
 
 We said it above: 
 
@@ -164,13 +158,13 @@ We said it above:
 - The Import functionality can handle ZIP files, but cannot handle other compression formats (RAR,7z, etc.). Please convert to ZIP before importing.
 
 
-#### File size and count
+### File size and count
 
 - If the **UNCOMPRESSED** contents of the deposit (the **UNZIPPED** size of the ZIP file) are larger than **30GB**, please send an email to the AEA Data Editor to request an increase in the quota. Reasonable requests will be authorized, though we may also suggest other, more suitable repositories. Size of the deposit is **never** a reason not to provide materials, as we have found solutions for every single case so far.
 - If you have **more than 1,000 files** in your deposit, please read [the guidance in the previous Step 1](/aea-de-guidance/preparing-for-data-deposit.html#structure-in-the-presence-of-more-than-1000-files), and if that doesn't solve it, [talk to us](#assistance) before uploading, 
 
 
-#### Restricted-access data
+### Restricted-access data
 
 > **DO NOT UPLOAD data that you do not want published!** 
 
@@ -192,14 +186,14 @@ We said it above:
 - [ ] Be sure to answer the [Submission questions](#submission-questions) with respect to the data that you **have** deposited, not data withheld or deposited elsewhere
 - [ ] proceed as usual as outlined below
 
-#### Tips
+### Tips
 
 - Please upload the README (in PDF or TXT) as the very first file - ensuring that it can be found easily by browsers of the archive.
   - It is OK to upload Markdown or Word documents in addition to, but not instead of the PDF or TXT version
 - Please upload the README to the root of the repository - any data and code can be in subdirectories, but it is easier to find the README if it is not in subdirectories.
   - There should be no duplicate README files in the repository
 
-#### Ideal structure
+### Ideal structure
 
 Your deposit should have
 
@@ -218,7 +212,7 @@ LICENSE.txt
 ```
 (the `LICENSE.txt` is optional if you want to adopt one of the standard openICPSR licenses upon publication. See [our licensing guidance](Licensing_guidance) for other options).
 
-### Submitting to the Data Editor
+## Submitting to the Data Editor
 
 Once you are satisfied that all (publishable) data files are present, are complete, and all metadata is satisfactory, including all required elements filled out, you should **submit** the deposit, by changing the **status** of the deposit:
 
@@ -226,7 +220,7 @@ Once you are satisfied that all (publishable) data files are present, are comple
 
 Choose "Submit to AEA" (or "Resubmit") under "Change Status".
 
-#### Submission questions
+### Submission questions
 
 You will be presented with a page to confirm that you are going through with the submission. You will then be presented with a page, asking various questions. 
 
@@ -234,37 +228,37 @@ You will be presented with a page to confirm that you are going through with the
 
 Contact the Data Editor if you have any questions or concerns.
 
-##### Can individuals be identified?
+#### Can individuals be identified?
 
 ![Identification question 1](/images/icpsr-submit-q1.png)
 
 The normal answer to this question is "No." If you would answer "Yes" to this question, go back to [Restricted-Access data](#restricted-access-data), or contact the Data Editor for clarification.
 
-##### Are the data sensitive?
+#### Are the data sensitive?
 
 ![Sensitivity question 2](/images/icpsr-submit-q2.png)
 
 The normal answer to this question is "No." If you would answer "Yes" to this question, go back to [Restricted-Access data](#restricted-access-data), or contact the Data Editor for clarification.
 
-##### Distribution question
+#### Distribution question
 
 ![Distribution question](/images/icpsr-submit-q3.png)
 
 You should answer this one as a function of the earlier answers. "Public download" means users will be registered users of openICPSR and consent to the license (next question), without further controls. "Restricted access" means that data will be distributed through ICPSR's [Restricted Data Access Mechanism](https://www.icpsr.umich.edu/web/pages/ICPSR/access/restricted/). Every replication package must have AT LEAST ONE deposit that is unrestricted. If you are uncertain, go back to [Restricted-Access data](#restricted-access-data), or contact the Data Editor for clarification.
 
-#### Choose a license
+### Choose a license
 
 ![License question](/images/icpsr-submit-q4-license.png)
 
 You should choose a license from the drop-down menu, or, if you have a custom license as part of the deposit, select "Other". See our [Licensing Guidance](Licensing_guidance).
 
 
-#### Finalizing
+### Finalizing
 
 Press "submit." Should you have forgotten something, you can "recall" the submission, fix the issue, and re-submit. 
 
 
-### Citing Your Deposit
+## Citing Your Deposit
 
 At present (2020), the openICPSR repository does not display the Digital Object Identifier (DOI) that will be associated with your deposit. However, it can be deduced easily.
 
@@ -285,11 +279,11 @@ At present (2020), the openICPSR repository does not display the Digital Object 
 - Note that the DOI **will not work** until (at the very end of the review process) the deposit is published. This is **normal**.
 - You do **not** need to add your replication package citation to the manuscript, as it will be added automatically. 
 
-#### Give it a try
+### Give it a try
 
 {% include deposit-doi.html %}
 
-### Ready to submit manuscript
+## Ready to submit manuscript
 
 Once you have completed the deposit, you are now ready to submit the manuscript native files, together with the [Data and Code Availability Form](https://www.aeaweb.org/journals/forms/data-code-availability), as per the journal's guidelines ([AER guidelines here](https://www.aeaweb.org/journals/aer/submissions/accepted-articles/styleguide)).
 
