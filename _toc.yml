@@ -24,6 +24,8 @@ parts:
         - file: creating-restricted-data-deposit-icpsr
         - file: creating-separate-data-deposit
         - file: replication-comment
+  - caption: Depositing data in a trusted repository
+    chapters:
     - file: 30-deposit-data
       sections:
         - file: data-deposit-aea
