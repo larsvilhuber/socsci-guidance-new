@@ -1,10 +1,4 @@
----
-title: Display Guidelines for Trusted Repositories (other than AEA Data and Code Repository)
-toc: true
-layout: single
-date: 2023-01-23
-modified: 2023-09-08
----
+# Display Guidelines for Trusted Repositories (other than AEA Data and Code Repository)
 
 The AEA accepts replication packages from any **trusted** repository (see [list](https://social-science-data-editors.github.io/guidance/Requested_information_hosting.html#trusted-repositories)), as long as they meet certain display criteria, and otherwise satisfy the reproducibility criteria as per the AEA Data and Code Availability Policy. The default trusted repository is the [AEA Data and Code Repository](https://www.openicpsr.org/openicpsr/search/aea/studies). If you have doubts about whether a particular repository qualifies as a "trusted" repository, contact the AEA Data Editor before unnecessarily duplicating the deposit. 
 
@@ -24,7 +18,7 @@ There are two main reasons why authors may want to deposit at a different reposi
 
 ## Additional (generic) guidance
 
-### Zenodo
+## Zenodo
 
 The AEA has a "community" on Zenodo: [https://zenodo.org/communities/aeajournals](https://zenodo.org/communities/aeajournals)
 
@@ -98,7 +92,7 @@ This ensures that the information is findable in both directions, not just from 
 
 The **contents** of the deposit must, of course, satisfy all other requirements for AEA replication packages.
 
-### Uploading and downloading large quantities of files
+## Uploading and downloading large quantities of files
 
 Some repositories allow for the upload of files via API or import from online services. This may be useful for particularly large data deposits.
 
@@ -124,7 +118,7 @@ Once the AEA has published your manuscript, the manuscript DOI will be locked in
 
 Here are some guidelines on how to do that update:
 
-### Adding manuscript DOI to CodeOcean capsule
+## Adding manuscript DOI to CodeOcean capsule
 
 Authors will need to edit the metadata:
 
@@ -139,7 +133,7 @@ CodeOcean will then verify the deposit again. Normally, this should not generate
 
 ![Updated CodeOcean after adding manuscript DOI](/images/codeocean-update-link-doi.png)
 
-### Adding manuscript DOI to other openICPSR repositories
+## Adding manuscript DOI to other openICPSR repositories
 
 Authors will need to edit the metadata under the "Related Publications" heading:
 
@@ -164,7 +158,7 @@ Authors will need to edit the metadata under the "Related Publications" heading:
 
 - Select `Save and Apply`. The change will take effect immediately, there is no need to go through the publication process.
 
-### Adding related manuscript to Dataverse
+## Adding related manuscript to Dataverse
 
 This should be applicable to any Dataverse instance.
 
@@ -180,7 +174,7 @@ This should be applicable to any Dataverse instance.
 
 > Contributed by Charlotte Cavaillé.
 
-### Adding related manuscript to Zenodo
+## Adding related manuscript to Zenodo
 
 - See [Edit published records](https://help.zenodo.org/docs/deposit/manage-records/#edit) for details on how to edit the metadata of a deposit (a "record")
 - Go to [My Uploads](https://zenodo.org/me/uploads) and find the record.
@@ -208,7 +202,7 @@ If your pre-existing deposit does not satisfy all of these rules, you can genera
 
 ## Examples
 
-### Zenodo
+## Zenodo
 
 Good examples can be found in the [AEA Journal Community](https://zenodo.org/communities/aeajournals/), for instance:
 
