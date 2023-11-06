@@ -1,12 +1,12 @@
----
-title: Sharing of Pre-Publication openICPSR deposits
-toc: true
-date: 2022-10-20
----
+# Sharing of Pre-Publication openICPSR deposits
 
 In certain situations, authors might want to provide access to others (co-authors, persons interested in the replication package) prior to publication of the openICPSR deposit. This may be a better solution than sending around ZIP files, as it ensures that the version the recipients of the share see is the same as the one that will be published. The following describes the steps to take for this.
 
-> Until a deposit is published, the contents are available only to AEA administrators and those listed on the "Share" screen.
+```{warning}
+
+Until a deposit is published, the contents are available only to AEA administrators and those listed on the "Share" screen.
+
+```
 
 ## Enabling sharing
 
@@ -47,4 +47,8 @@ Permissions can be adjusted after the initial share. Simply view the existing pe
 
 At any point, the owners of the deposit, or those with permission to "control permissions", can rescind the ability to download. To remove permission to read the contents (view the deposit), delete the entire entry.
 
-> [NOTE] Any files already downloaded stay with the person, of course.
+```{note}
+
+Any files already downloaded stay with the person, of course.
+
+```
