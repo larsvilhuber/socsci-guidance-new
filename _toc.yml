@@ -1,0 +1,35 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Overview
+    chapters:
+    - file: overview
+  - caption: Preparing replication packages
+    chapters: 
+    - file: 10-preparing-for-data-deposit
+      sections:
+        - file: 10-01-step
+        - file: 10-02-step
+        - file: 10-03-step
+        - file: 10-04-step
+        - file: Licensing_guidance
+        - file: 10-05-step
+        - file: 10-06-step
+        - file: 10-07-step
+    - file: 20-more-complex-cases
+      sections:
+        - file: creating-restricted-data-deposit-icpsr
+        - file: creating-separate-data-deposit
+        - file: replication-comment
+    - file: 30-deposit-data
+      sections:
+        - file: data-deposit-aea
+        - file: guidelines-other-repositories
+        - file: sharing-openicpsr
+        - file: sharing-restricted-data
+  - caption: FAQ
+    chapters:
+    - file: faq
