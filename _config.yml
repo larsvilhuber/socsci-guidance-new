@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Preparing and submitting replication packages in the social sciences
-author: Lars Vilhuber, Miklós Koren, Marie Connolly, Joan Lull, Florian Oswald
+author: Lars Vilhuber, Miklós Koren, Marie Connolly, Joan Llull, Florian Oswald
 logo: assets/ssde-logo.jpeg
 copyright: 2018-2023
 exclude_patterns          : ["*venv*",".git*",".devcontainer"]
